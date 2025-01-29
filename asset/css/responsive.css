@@ -1,0 +1,264 @@
+
+/* Project Page  */
+@media only screen and (max-width: 576px) {
+
+    .left-content h2{
+        font-size: 30px;
+    }
+    .service-heading{
+        font-size: 25px;
+    }
+    h2.portfolio-heading,section.portfolio-call-to-action h2{
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .section-padding{
+        padding: 30px;
+    }
+    button.project-button-1{
+        margin-bottom: 20px;
+    }
+    .testimonial-description h3{
+        font-size: 35px;
+    }
+  }
+  @media only screen and (max-width: 1200px){
+    .coma{
+        left: 0%;
+    }
+  }
+  @media only screen and (max-width: 1200px){
+    a.carousel-control-prev.testimonial-control{
+        top: 85%;
+    }
+    a.carousel-control-next.testimonial-control{
+        top: 85%;
+        margin-left: 20px;
+    }
+  }
+  @media only screen and (max-width: 767px){
+    .client-picture img{
+          max-height: 350px;
+      }
+      .client-picture img.coma{
+          top:55%;
+          left: 5%;
+      }
+  }
+
+
+  /* Team Page  */
+
+  @media only screen and (max-width: 992px){
+    .achivement-item{
+        margin-top: 45px;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .blog-container .row{
+        margin-bottom: 40px;
+    }
+  }
+
+/* Contact Us Page  */
+
+  @media only screen and (max-width: 768px){
+    .office-block{
+        margin-bottom: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 992px){
+    .partner img{
+        margin-bottom: 25px;
+    }
+  }
+  @media only screen and (max-width: 768px){
+    .partner img{
+        margin-bottom: 35px;
+    }
+  }
+
+  /* Service Details Page  */
+
+  @media only screen and (max-width:768px){
+	  .contact-header .right-content img{
+		  width:70% !important;
+      margin-left: -20px;
+	  }
+  }
+
+
+/* Small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .left-content p {
+      font-size: 14px; /* Smaller font size */
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+}
+
+/* Medium devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .left-content p {
+      font-size: 15px; /* Slightly smaller font size */
+      margin-left: 50px;
+      margin-right: 50px;
+  }
+}
+
+/* Large devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .left-content p {
+      font-size: 16px;
+      margin-left: 80px;
+      margin-right: 80px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .left-content p {
+      font-size: 18px; /* Larger font size for larger screens */
+      margin-left: 200px;
+      margin-right: 200px;
+  }
+}
+
+
+/* Small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .testimonial-description h3 {
+      font-size: 23px; /* Smaller font size for smaller screens */
+  }
+}
+
+/* Medium devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .testimonial-description h3 {
+      font-size: 34px; /* Adjusted font size for tablets */
+  }
+}
+
+/* Large devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .testimonial-description h3 {
+      font-size: 40px; /* Slightly smaller than the base size */
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .testimonial-description h3 {
+      font-size: 50px; /* Larger font size for very large screens */
+  }
+}
+
+/* Small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .client-meta-data p {
+      font-size: 14px; /* Smaller font size */
+      line-height: 28px; /* Reduced line height for compact screens */
+  }
+}
+
+/* Medium devices (tablets, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .client-meta-data p {
+      font-size: 15px; /* Slightly larger font size for tablets */
+      line-height: 30px;
+  }
+}
+
+/* Large devices (desktops, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .client-meta-data p {
+      font-size: 16px; /* Default size */
+      line-height: 32px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .client-meta-data p {
+      font-size: 18px; /* Larger font size for better readability */
+      line-height: 36px; /* Increased line height for spacious layouts */
+  }
+}
+
+@media (max-width: 768px) {
+  .project-discussion h2 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #070A57;
+    text-align: center;
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-left: -30px;
+  }
+}
+@media (max-width: 768px) {
+  .project-discussion button {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-left: 55px;
+  }
+}
+@media (max-width: 768px) {
+  .project-discussion p {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.4;
+    margin-top: 20px;
+    margin-right: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-control-next {
+    margin-right: -70px;
+}
+  }
+
+
+
+/* Extra Small Screens (Phones) */
+@media (max-width: 576px) {
+  .footer-widget-1 p,
+  .footer-widget-2 h3,
+  .footer-widget-3 h3,
+  .footer-widget-4 p {
+      font-size: 14px; /* Reduce font sizes for extra small screens */
+      line-height: 28px;
+  }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .footer-widget-4 ul li {
+      font-size: 24px; /* Slightly reduce icon size on smaller screens */
+      padding: 5px; /* Adjust padding for icons */
+  }
+  .footer-widget-4 ul {
+      text-align: center; /* Center-align icons */
+      padding: 0; /* Remove extra padding */
+  }
+  .footer-widget-4 ul li a {
+      color: #151e3d; /* Ensure icons have a visible color on smaller screens */
+  }
+}
+
+/* Extra Small Screens (Phones) */
+@media (max-width: 576px) {
+  .footer-widget-4 ul li {
+      font-size: 20px; /* Reduce icon size for very small screens */
+      padding: 5px 5px; /* Adjust padding for better spacing */
+  }
+  .footer-widget-4 ul {
+      display: flex; /* Ensure proper alignment */
+      justify-content: left; /* Center icons on smaller screens */
+  }
+}
