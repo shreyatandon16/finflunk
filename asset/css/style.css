@@ -61,6 +61,22 @@ button.nav-button{
     border-radius: 5px;
 color: black;
 }
+
+@media (max-width: 768px) {
+    .call-to-action {
+       margin-right: 20px;
+    }
+
+
+}
+
+@media (max-width: 480px) {
+    .call-to-action{
+        margin-right: 20px;
+     }
+
+}
+
 .bg-light {
     background-color: #0b1320 !important;
 }
@@ -313,7 +329,7 @@ a.carousel-control-next.testimonial-control {
 	/* background: #070A57; */
 	color: #070A57;
 	height: 32px;
-    width: 32px;
+    /* width: 32px; */
     padding:5px;
 }
 .client-meta-data h5 {
@@ -324,12 +340,33 @@ a.carousel-control-next.testimonial-control {
 	}
 
 
-.client-meta-data p {
+/* .client-meta-data p {
 	font-family: 'Rubik',sans-serif;
 	font-size: 16px;
 	font-style: italic;
 	line-height:32px
-	}
+	} */
+
+
+    .client-meta-data p {
+        font-family: 'Rubik', sans-serif;
+        font-size: 16px;
+        font-style: italic;
+        line-height: 32px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        white-space: normal; /* Ensures text wraps properly */
+        max-width: 100%; /* Prevents overflow beyond container */
+    }
+
+    @media (max-width: 575.98px) { /* Target mobile screens */
+        .client-meta-data p {
+            font-size: 14px; /* Reduce font size for smaller screens */
+            line-height: 24px; /* Adjust line height for readability */
+            max-width: 50%;
+        }
+    }
+
 .coma{
     position: absolute;
     top: 70%;
